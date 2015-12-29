@@ -7,7 +7,7 @@ package elecciones;
 
 /**
  *
- * @author pablo
+ * @author pepe
  */
 public class pruebaGIT {
     private String prueba = "esto es una prueba en GIT";
