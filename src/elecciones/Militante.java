@@ -11,8 +11,8 @@ public class Militante extends Votantes{
     protected String carnet;
     String[] pregMil = {"Pregunta Militante 1", "Pregunta Militante 2", "Pregunta Militante 3"};
 //Contructores
-    public Militante(double cuota, String carnet, String nombre, String apellidos, int edad, String profesion, char genero, String siglasPartido) {
-        super(nombre, apellidos, edad, profesion, genero, siglasPartido);
+    public Militante(double cuota, String carnet, String nombreApellidos, int edad, String profesion, char genero, String siglasPartido) {
+        super(nombreApellidos, edad, profesion, genero, siglasPartido);
         this.cuota = cuota;
         this.carnet = carnet;
     }
@@ -42,7 +42,7 @@ public class Militante extends Votantes{
 
     @Override
     public String toString() {
-        return "Militante{" + nombre + ", cuota= " + cuota + "€" +", carnet= " + carnet + '}';
+        return "Militante{" + nombreApellidos + ", cuota= " + cuota + "€" +", carnet= " + carnet + '}';
     }
 
 
